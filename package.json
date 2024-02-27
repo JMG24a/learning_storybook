@@ -1,0 +1,34 @@
+{
+  "name": "designsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "story": "storybook dev -p 6006",
+    "test-story": "test-storybook",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-a11y": "^7.6.17",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/html": "^7.6.17",
+    "@storybook/html-vite": "^7.6.17",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/test": "^7.6.17",
+    "@storybook/test-runner": "^0.16.0",
+    "@storybook/testing-library": "^0.2.2",
+    "chromatic": "^11.0.0",
+    "storybook": "^7.6.17"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
